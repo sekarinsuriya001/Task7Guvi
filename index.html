@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Basics Tutorial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>JavaScript Basics Tutorial</h2>
+      <ul class="nav">
+        <li><a href="#home">JavaScript - Home</a></li>
+        <li><a href="#overview">JavaScript - Overview</a></li>
+        <li><a href="#syntax">JavaScript - Syntax</a></li>
+        <li><a href="#variables">JavaScript - Variables</a></li>
+        <li><a href="#operators">JavaScript - Operators</a></li>
+        <li><a href="#control-flow">JavaScript - Control Flow</a></li>
+        <li><a href="#functions">JavaScript - Functions</a></li>
+        <li><a href="#objects">JavaScript - Objects</a></li>
+        <li><a href="#arrays">JavaScript - Arrays</a></li>
+        <li><a href="#strings">JavaScript - Strings</a></li>
+        <li><a href="#dom">JavaScript - DOM</a></li>
+        <li><a href="#events">JavaScript - Events</a></li>
+      </ul>
+    </aside>
+    <main class="content">
+      <section id="home">
+        <h1>Welcome to the JavaScript Basics Tutorial</h1>
+        <p>This tutorial will guide you through the fundamentals of JavaScript, a versatile programming language used to add interactivity and dynamic behavior to websites.</p>
+        <p>Whether you're a complete beginner or have some coding experience, this tutorial will provide you with the knowledge and skills to start using JavaScript effectively.</p>
+        <p>Throughout this tutorial, you'll learn about various concepts, including:</p>
+        <ul>
+          <li>Variables and data types</li>
+          <li>Operators and expressions</li>
+          <li>Control flow statements (if-else, loops)</li>
+          <li>Functions</li>
+          <li>Objects and arrays</li>
+          <li>DOM manipulation</li>
+          <li>Event handling</li>
+          <li>And much more!</li>
+        </ul>
+        <p>Get ready to embark on an exciting journey into the world of JavaScript!</p>
+      </section>
+
+      <section id="overview">
+        <h2>JavaScript Overview</h2>
+        <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and much more.</p>
+        <p>Here are some key features of JavaScript:</p>
+        <ul>
+          <li>Lightweight and interpreted</li>
+          <li>Object-oriented</li>
+          <li>Imperative and functional</li>
+          <li>First-class functions</li>
+          <li>Client-side execution</li>
+        </ul>
+      </section>
+
+      <section id="syntax">
+        <h2>JavaScript Syntax</h2>
+        <p>JavaScript syntax is the set of rules that define how JavaScript programs are written. It borrows heavily from C and Java syntax.</p>
+        <p>Here are some basic syntax elements:</p>
+        <ul>
+          <li>Variables: Declared using var, let, or const.</li>
+          <li>Data Types: Numbers, strings, booleans, objects, etc.</li>
+          <li>Operators: Arithmetic, comparison, logical, etc.</li>
+          <li>Control Flow: if-else statements, loops, etc.</li>
+          <li>Functions: Defined using the function keyword.</li>
+        </ul>
+      </section>
+
+      <section id="variables">
+        <h2>JavaScript Variables</h2>
+        <p>Variables are used to store data values. JavaScript uses the keywords var, let, and const to declare variables.</p>
+        <p>Examples:</p>
+        <pre><code>
+          var name = "John Doe";
+          let age = 30;
+          const PI = 3.14159;
+        </code></pre>
+      </section>
+
+      <section id="operators">
+        <h2>JavaScript Operators</h2>
+        <p>Operators are used to perform operations on variables and values.</p>
+        <p>Types of operators:</p>
+        <ul>
+          <li>Arithmetic Operators: +, -, *, /, %, ++, --</li>
+          <li>Assignment Operators: =, +=, -=, *=, /=, %=</li>
+          <li>Comparison Operators: ==, ===, !=, !==, >, <, >=, <=</li>
+          <li>Logical Operators: &&, ||, !</li>
+        </ul>
+      </section>
+
+      <section id="control-flow">
+        <h2>JavaScript Control Flow</h2>
+        <p>Control flow statements determine the order in which code is executed.</p>
+        <p>Examples:</p>
+        <ul>
+          <li>if-else statements: Execute different blocks of code based on a condition.</li>
+          <li>Loops: Repeat a block of code multiple times.
+            <ul>
+              <li>for loop: Iterate a specific number of times.</li>
+              <li>while loop: Iterate as long as a condition is true.</li>
+            </ul>
+          </li>
+          <li>switch statement: Execute different blocks of code based on different cases.</li>
+        </ul>
+      </section>
+
+      <section id="functions">
+        <h2>JavaScript Functions</h2>
+        <p>Functions are reusable blocks of code that perform a specific task.</p>
+        <p>Example:</p>
+        <pre><code>
+          function greet(name) {
+            console.log("Hello, " + name + "!");
+          }
+        </code></pre>
+      </section>
+
+      <section id="objects">
+        <h2>JavaScript Objects</h2>
+        <p>Objects are collections of key-value pairs. They are used to represent real-world entities.</p>
+        <p>Example:</p>
+        <pre><code>
+          const person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 30
+          };
+        </code></pre>
+      </section>
+
+      <section id="arrays">
+        <h2>JavaScript Arrays</h2>
+        <p>Arrays are used to store multiple values in a single variable.</p>
+        <p>Example:</p>
+        <pre><code>
+          const colors = ["red", "green", "blue"];
+        </code></pre>
+      </section>
+
+      <section id="strings">
+        <h2>JavaScript Strings</h2>
+        <p>Strings are used to represent text.</p>
+        <p>Example:</p>
+        <pre><code>
+          let message = "Hello, world!";
+        </code></pre>
+      </section>
+
+      <section id="dom">
+        <h2>JavaScript DOM</h2>
+        <p>The Document Object Model (DOM) is a programming interface for HTML and XML documents. It allows you to manipulate the content, structure, and style of a website.</p>
+        <p>Example:</p>
+        <pre><code>
+          // Change the text content of an element with id="myHeader"
+          document.getElementById("myHeader").innerHTML = "New Header Text";
+        </code></pre>
+      </section>
+
+      <section id="events">
+        <h2>JavaScript Events</h2>
+        <p>Events are actions or occurrences that happen in the browser, such as clicking a button, loading a page, or hovering over an element. JavaScript allows you to respond to these events.</p>
+        <p>Example:</p>
+        <pre><code>
+          // Display an alert when a button is clicked
+          &lt;button onclick="alert('Button clicked!')"&gt;Click Me&lt;/button&gt;
+        </code></pre>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
