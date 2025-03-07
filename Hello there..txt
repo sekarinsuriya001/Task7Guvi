@@ -1,0 +1,19 @@
+Hello there.
+I've chosen the task documentation 2 image for my task 7 content.
+In this task, I involved writing HTML for the structure and CSS for the styling and layout.
+Steps taken:
+
+1)HTML Structure
+  * I set up the basics with a container, sidebar and content area.
+  * Added an animation under "JavaScript Basic tutorials" contents.
+  * The content area initially had a welcome message and a "Why learn JavaScript" section and added some extra contents for viewing experience.
+
+2)CSS Styling
+  * I styled the page with a clean and readable font, background color and layout.
+  * The sidebar was given a fixed width and a light gray background.
+  * I added a yellow background to the tutorial title 
+
+I hope that I've matched the image and added some extra content for your viewing experience.
+I tried to match the image which is given and I think I've done my best.
+If I done any mistakes, please let me know and highlight it.
+Thank you.   
